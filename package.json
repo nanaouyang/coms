@@ -1,0 +1,48 @@
+{
+  "name": "com-js",
+  "version": "0.1.0",
+  "description": "A util to handle common js",
+  "main": "index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "rollup -c&&tsc",
+    "test": "jest --config jestconfig.json",
+    "coverage": "jest --config jestconfig.json --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nanaouyang/com-js.git"
+  },
+  "keywords": [
+    "util",
+    "common",
+    "js"
+  ],
+  "author": "zzif",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nanaouyang/com-js/issues"
+  },
+  "homepage": "https://github.com/nanaouyang/com-js#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.5",
+    "@typescript-eslint/eslint-plugin": "^3.6.1",
+    "@typescript-eslint/parser": "^3.6.1",
+    "eslint": "^7.5.0",
+    "eslint-config-alloy": "^3.7.3",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "jest": "^26.1.0",
+    "prettier": "^2.0.5",
+    "rollup": "^2.22.1",
+    "rollup-plugin-sourcemaps": "^0.6.2",
+    "rollup-plugin-typescript": "^1.0.1",
+    "rollup-plugin-uglify": "^6.0.4",
+    "ts-jest": "^26.1.3",
+    "tslib": "^2.0.0",
+    "typescript": "^3.9.7"
+  }
+}
