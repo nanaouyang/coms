@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nanaouyang/com-js.git"
+    "url": "git+https://github.com/nanaouyang/coms.git"
   },
   "keywords": [
     "util",
@@ -28,9 +28,9 @@
   "author": "zzif",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nanaouyang/com-js/issues"
+    "url": "https://github.com/nanaouyang/coms/issues"
   },
-  "homepage": "https://github.com/nanaouyang/com-js#readme",
+  "homepage": "https://github.com/nanaouyang/coms#readme",
   "devDependencies": {
     "@types/jest": "^26.0.5",
     "@typescript-eslint/eslint-plugin": "^3.6.1",
