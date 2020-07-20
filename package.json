@@ -8,6 +8,9 @@
     "lib/**/*"
   ],
   "scripts": {
+    "postversion": "git push && git push --tags",
+    "version": "git add -A src",
+    "prepare": "npm run build",
     "build": "rollup -c&&tsc",
     "test": "jest --config jestconfig.json",
     "coverage": "jest --config jestconfig.json --coverage"
