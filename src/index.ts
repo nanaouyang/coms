@@ -3,11 +3,11 @@ import { Regex } from "./regex";
 import { Tree } from "./tree";
 import { Type } from "./type";
 
-const comjs = {
+const coms = {
   Debounce,
   Regex,
   Tree,
   Type,
 };
-export default comjs;
+export default coms;
 export { Tree, Type, Regex, Debounce };
