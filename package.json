@@ -12,6 +12,7 @@
     "version": "git add -A src",
     "prepare": "npm run build",
     "build": "rollup -c&&tsc",
+    "patch": "npm version patch",
     "test": "jest --config jestconfig.json",
     "coverage": "jest --config jestconfig.json --coverage"
   },
