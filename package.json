@@ -16,10 +16,11 @@
     "major": "npm version major",
     "minor": "npm version minor",
     "patch": "npm version patch",
+    "version": "npm run changelog:part",
     "test": "jest --config jestconfig.json",
     "coverage": "jest --config jestconfig.json --coverage",
-    "changelog:all": "conventional-changelog -p angular -i CHANGELOG.md -w -r 0",
-    "changelog:part": "conventional-changelog -p angular -i CHANGELOG.md -s -p"
+    "changelog:all": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "changelog:part": "conventional-changelog -p angular -i CHANGELOG.md -s -p&& git add CHANGELOG.md"
   },
   "repository": {
     "type": "git",
