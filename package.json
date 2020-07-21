@@ -20,7 +20,7 @@
     "test": "jest --config jestconfig.json",
     "coverage": "jest --config jestconfig.json --coverage",
     "changelog:all": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-    "changelog:part": "conventional-changelog -p angular -i CHANGELOG.md -s -p&& git add ."
+    "changelog:part": "conventional-changelog -p angular -i CHANGELOG.md -s&& git add ."
   },
   "repository": {
     "type": "git",
