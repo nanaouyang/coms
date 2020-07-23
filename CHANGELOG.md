@@ -1,3 +1,9 @@
+## [0.1.5](https://github.com/nanaouyang/coms/compare/v0.1.4...v0.1.5) (2020-07-23)
+
+### Features
+
+- 添加图片 ([ad83d5d](https://github.com/nanaouyang/coms/commit/ad83d5d073354a0ae2a0e2a467b625a736432308))
+
 ## [0.1.4](https://github.com/nanaouyang/coms/compare/0.1.4...v0.1.4) (2020-07-23)
 
 ### Features
