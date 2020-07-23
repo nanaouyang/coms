@@ -1,6 +1,6 @@
 {
   "name": "coms",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A util to handle common js",
   "main": "index.js",
   "typings": "lib/index.d.ts",
